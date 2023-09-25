@@ -25,7 +25,7 @@ default_args = {
 
 # define the DAG
 dag = DAG( 
-    'ETL_Server_Acess_Log_Processing',
+    dag_id = 'ETL_Server_Acess_Log_Processing',
     default_args=default_args,
     description='My first DAG',
     schedule_interval=timedelta(days=1)
